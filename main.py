@@ -7,6 +7,7 @@ Main file for running the screen through pygame and processing user input
 import pygame
 import sys
 import sqlite3
+import json
 import color_functions as cf
 import mj_board as mjb
 
