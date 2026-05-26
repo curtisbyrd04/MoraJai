@@ -6,7 +6,7 @@ Main file for running the screen through pygame and processing user input
 
 import pygame
 import sys
-import sqlite3
+import database as db
 import color_functions as cf
 import mj_board as mjb
 
@@ -16,7 +16,6 @@ pygame.init()
 #Screen Width and Height
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-sqlite3.connect('mora_jai.db')
 
 """
     Creates the board and sets it's initial values
